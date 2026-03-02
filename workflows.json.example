@@ -1,0 +1,19 @@
+{
+  "workflows": [
+    {
+      "id": "your_workflow_id_here",
+      "name": "工作流名称",
+      "description": "工作流描述",
+      "token": "your_token_here",
+      "parameters": [
+        {
+          "name": "input",
+          "label": "输入内容",
+          "type": "textarea",
+          "required": true,
+          "placeholder": "请输入内容"
+        }
+      ]
+    }
+  ]
+}
